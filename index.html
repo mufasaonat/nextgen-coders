@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Resources</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .grade-links {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .grade-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .grade-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .grade-card h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 600px) {
+            .grade-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Educational Resources</h1>
+            <p>Select your grade level to access appropriate learning materials</p>
+        </header>
+        
+        <div class="grade-links">
+            <div class="grade-card">
+                <h2>Grade 7</h2>
+                <p>Middle school resources for 7th grade students</p>
+                <a href="#grade7" class="btn">Access Materials</a>
+            </div>
+            
+            <div class="grade-card">
+                <h2>Grade 8</h2>
+                <p>Middle school resources for 8th grade students</p>
+                <a href="#grade8" class="btn">Access Materials</a>
+            </div>
+            
+            <div class="grade-card">
+                <h2>Grade 9</h2>
+                <p>High school resources for 9th grade students</p>
+                <a href="#grade9" class="btn">Access Materials</a>
+            </div>
+            
+            <div class="grade-card">
+                <h2>Grade 10</h2>
+                <p>High school resources for 10th grade students</p>
+                <a href="#grade10" class="btn">Access Materials</a>
+            </div>
+            
+            <div class="grade-card">
+                <h2>Grade 11</h2>
+                <p>High school resources for 11th grade students</p>
+                <a href="#grade11" class="btn">Access Materials</a>
+            </div>
+            
+            <div class="grade-card">
+                <h2>Grade 12</h2>
+                <p>High school resources for 12th grade students</p>
+                <a href="#grade12" class="btn">Access Materials</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2023 Educational Resources. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
