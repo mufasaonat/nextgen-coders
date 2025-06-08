@@ -8,7 +8,7 @@
         "Use of Information Technology"
       ],
       "indicator": "4",
-      "link": "https://drive.google.com/drive/folders/1ghj-2btA14jac95uDKIr974nU-psLGaC?usp=sharing"      
+      "link": "https://drive.google.com/drive/folders/1ghj-2btA14jac95uDKIr974nU-psLGaC?usp=sharing"
     },
     {
       "unit": 1,
@@ -19,7 +19,7 @@
         "Description of the Problem and Solution"
       ],
       "indicator": "1",
-        "link": "https://drive.google.com/drive/folders/1mWPnshkeEgD1JzV6nnluMdNgmy1b-WiM?usp=sharing"
+      "link": "https://drive.google.com/drive/folders/1mWPnshkeEgD1JzV6nnluMdNgmy1b-WiM?usp=sharing"
     },
     {
       "unit": 2,
@@ -60,7 +60,6 @@
       ],
       "indicator": "1,2"
     },
-    
     {
       "unit": 5,
       "topic": "Data and Processing",
@@ -72,6 +71,6 @@
         "Data Management Software"
       ],
       "indicator": "3"
-    }    
+    }
   ]
 }
