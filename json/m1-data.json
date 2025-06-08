@@ -21,17 +21,7 @@
       "indicator": "1",
         "link": "https://drive.google.com/drive/folders/1mWPnshkeEgD1JzV6nnluMdNgmy1b-WiM?usp=sharing"
     },
-    {
-      "unit": 4,
-      "topic": "Problem Solving",
-      "contents": [
-        "Problem Solving Steps",
-        "Writing Pseudocode and Flowcharts",
-        "Assigning Values to Variables",
-        "Programming Languages"
-      ],
-      "indicator": "1,2"
-    },
+    
     {
       "unit": 2,
       "topic": "Programming with Scratch",
@@ -56,6 +46,17 @@
         "Practice Programming with the Python Turtle",
         "Iterative Work",
         "Working with Options"
+      ],
+      "indicator": "1,2"
+    },
+    {
+      "unit": 4,
+      "topic": "Problem Solving",
+      "contents": [
+        "Problem Solving Steps",
+        "Writing Pseudocode and Flowcharts",
+        "Assigning Values to Variables",
+        "Programming Languages"
       ],
       "indicator": "1,2"
     },
