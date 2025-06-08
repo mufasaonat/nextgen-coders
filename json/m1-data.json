@@ -21,9 +21,19 @@
       "indicator": "1",
         "link": "https://drive.google.com/drive/folders/1mWPnshkeEgD1JzV6nnluMdNgmy1b-WiM?usp=sharing"
     },
-    
     {
       "unit": 2,
+      "topic": "Problem Solving",
+      "contents": [
+        "Problem Solving Steps",
+        "Writing Pseudocode and Flowcharts",
+        "Assigning Values to Variables",
+        "Programming Languages"
+      ],
+      "indicator": "1,2"
+    },
+    {
+      "unit": 3,
       "topic": "Programming with Scratch",
       "contents": [
         "Getting to know the Scratch program",
@@ -35,7 +45,7 @@
       "indicator": "1,2"
     },
     {
-      "unit": 3,
+      "unit": 4,
       "topic": "Programming in Python",
       "contents": [
         "Getting to know Python",
@@ -49,17 +59,7 @@
       ],
       "indicator": "1,2"
     },
-    {
-      "unit": 4,
-      "topic": "Problem Solving",
-      "contents": [
-        "Problem Solving Steps",
-        "Writing Pseudocode and Flowcharts",
-        "Assigning Values to Variables",
-        "Programming Languages"
-      ],
-      "indicator": "1,2"
-    },
+    
     {
       "unit": 4,
       "topic": "Data and Processing",
