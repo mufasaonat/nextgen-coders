@@ -1,0 +1,75 @@
+{
+  "tableData": [
+    {
+      "unit": 6,
+      "topic": "Safe Use of Information Technology",
+      "contents": [
+        "Threats from the Use of Information Technology and Protection",
+        "Use of Information Technology"
+      ],
+      "indicator": "4",
+      "link": "https://drive.google.com/drive/folders/1ghj-2btA14jac95uDKIr974nU-psLGaC?usp=sharing"      
+    },
+    {
+      "unit": 1,
+      "topic": "Abstraction",
+      "contents": [
+        "Abstract Concepts",
+        "Selection of Characteristics Necessary for Problem Solving",
+        "Description of the Problem and Solution"
+      ],
+      "indicator": "1",
+        "link": "https://drive.google.com/drive/folders/1mWPnshkeEgD1JzV6nnluMdNgmy1b-WiM?usp=sharing"
+    },
+    {
+      "unit": 4,
+      "topic": "Problem Solving",
+      "contents": [
+        "Problem Solving Steps",
+        "Writing Pseudocode and Flowcharts",
+        "Assigning Values to Variables",
+        "Programming Languages"
+      ],
+      "indicator": "1,2"
+    },
+    {
+      "unit": 2,
+      "topic": "Programming with Scratch",
+      "contents": [
+        "Getting to know the Scratch program",
+        "Iterative Work",
+        "Variables",
+        "Working with Options",
+        "Conditional Loop Statements"
+      ],
+      "indicator": "1,2"
+    },
+    {
+      "unit": 3,
+      "topic": "Programming in Python",
+      "contents": [
+        "Getting to know Python",
+        "Variables",
+        "Basic Data Types",
+        "Data type Conversion",
+        "Python Programming in Script Mode",
+        "Practice Programming with the Python Turtle",
+        "Iterative Work",
+        "Working with Options"
+      ],
+      "indicator": "1,2"
+    },
+    {
+      "unit": 4,
+      "topic": "Data and Processing",
+      "contents": [
+        "Information",
+        "Data Collection",
+        "Data Processing",
+        "Creating Decision-Making Alternatives",
+        "Data Management Software"
+      ],
+      "indicator": "3"
+    }    
+  ]
+}
