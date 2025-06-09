@@ -7,8 +7,7 @@
         "True or false? Sure or Not?",
         "Believe it or not, share it or not?"
       ],
-      "indicator": "4",
-      "link": "Nothing"
+      "indicator": "4"
     },
     {
       "unit": 2,
@@ -17,8 +16,7 @@
         "Whose work can be used?",
         "Our rights"
       ],
-      "indicator": 4,
-      "link": 2
+      "indicator": 4
     },
     {
       "unit": 3,
@@ -27,8 +25,7 @@
         "Drawing a building plan",
         "Teaching children to organize their books"
       ],
-      "indicator": 1,
-      "link": 4
+      "indicator": 1
     },
     {
       "unit": 4,
@@ -38,8 +35,7 @@
         "How can you tell your friends to do it?",
         "Get dressed"
       ],
-      "indicator": "1",
-      "link": "4"
+      "indicator": "1"
     },
     {
       "unit": 5,
@@ -51,8 +47,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 2
+      ]
     },
     {
       "unit": 6,
@@ -65,8 +60,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 6
+      ]
     },
     {
       "unit": 7,
@@ -78,8 +72,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 6
+      ]
     },
     {
       "unit": 8,
@@ -91,8 +84,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 4
+      ]
     },
     {
       "unit": 9,
@@ -107,8 +99,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 6
+      ]
     },
     {
       "unit": 10,
@@ -120,8 +111,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 3
+      ]
     },
     {
       "unit": 11,
@@ -133,8 +123,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 3
+      ]
     },
     {
       "unit": 12,
@@ -147,8 +136,7 @@
       "indicator": [
         1,
         2
-      ],
-      "link": 4
+      ]
     },
     {
       "unit": 13,
@@ -158,8 +146,7 @@
         "The thought cycle and the computer's little brain",
         "Digital devices in depth"
       ],
-      "indicator": 3,
-      "link": 2
+      "indicator": 3
     },
     {
       "unit": 14,
@@ -169,8 +156,7 @@
         "I don't know what's wrong with my computer",
         "Creative media we create"
       ],
-      "indicator": 3,
-      "link": 4
+      "indicator": 3
     },
     {
       "unit": 15,
@@ -181,8 +167,7 @@
         "What is the internet",
         "Using the internet"
       ],
-      "indicator": 3,
-      "link": 3
+      "indicator": 3
     },
     {
       "unit": 16,
@@ -192,8 +177,7 @@
         "Let's think together and do together",
         "Communication technology quiz"
       ],
-      "indicator": 3,
-      "link": 3
+      "indicator": 3
     }
   ]
 }

@@ -10,7 +10,7 @@
         "Computer Law",
         "Fair Use of Copyright"
       ],
-      "link": [3, 4]
+      "indicator": [3, 4]
     },
     {
       "unit": 1,
@@ -20,7 +20,7 @@
         "Development planning",
         "Planning and progress tracking tools"
       ],
-      "link": [2]
+      "indicator": [1]
     },
     {
       "unit": 2,
@@ -29,7 +29,7 @@
         "Information processing",
         "Creating a graphical user interface"
       ],
-      "link": [3]
+      "indicator": [1]
     },
     {
       "unit": 3,
@@ -40,7 +40,7 @@
         "Programming with vuniteo",
         "Creating an application with Scratch"
       ],
-      "link": [4]
+      "indicator": [1]
     },
     {
       "unit": 4,
@@ -49,7 +49,7 @@
         "Good information is half the battle.",
         "Using data to solve problems"
       ],
-      "link": [5]
+      "indicator": [2]
     },
     {
       "unit": 5,
@@ -58,7 +58,7 @@
         "IoT components",
         "Case study of IoT application development: \"Automatic plant watering system\""
       ],
-      "link": [1]
+      "indicator": [1]
     }
   ]
 }
