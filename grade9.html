@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Grade 9 Dashboard</title>
+        <title>Mathayom 9</title>
         <style>
             * {
                 box-sizing: border-box;
@@ -95,6 +95,36 @@
                 margin: 0;
                 font-size: 24px;
             }
+            
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            
+            th, td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            
+            th {
+                background-color: #2c3e50;
+                color: white;
+            }
+            
+            tr:hover {
+                background-color: #f5f5f5;
+            }
+            
+            .topic-title {
+                font-weight: bold;
+                color: #2c3e50;
+            }
+            
+            .topic-desc {
+                color: #555;
+            }
 
             @media (max-width: 600px) {
                 .header {
@@ -110,6 +140,11 @@
                     padding: 10px 5px;
                     font-size: 14px;
                 }
+                
+                th, td {
+                    padding: 8px;
+                    font-size: 14px;
+                }
             }
         </style>
     </head>
@@ -120,86 +155,105 @@
             <a href="index.html"><button class="home-btn">Home</button></a>
         </div>
 
-        <div class="tab-container">
-            <div class="tab active" data-tab="indicator1">First Semester (Midterm)</div>
-            <div class="tab" data-tab="indicator2">First Semester (Final)</div>
-            <div class="tab" data-tab="indicator3">Second Semester (Midterm)</div>
-            <div class="tab" data-tab="indicator4">Second Semester (Final)</div>
-        </div>
+        <!-- <div class="tab-container">
+            <div class="tab active" data-tab="indicator1">First Semester</div>            
+            <div class="tab" data-tab="indicator3">Second Semester</div>            
+        </div> -->
 
         <div class="content">
+        <h1 class="indicator">COURSE DESCRIPTION</h1>
             <div class="tab-content active" id="indicator1">
-                <h2 class="indicator">Use information technology safely and responsbly towards society, comply with computer laws, and use others’ copyright fairly.
-                </h2>
-                <p>Study abstract concepts, the selection of essential features for problem-solving, and problem-solving procedures. Writing pseudocode and flowcharts; designing and writing simple programs that utilize variables, conditions, and loops to solve mathematical or scientific problems. Collecting primary data, processing data, generating alternatives, and evaluating outcomes for decision-making. Software and internet services used for data management. Guidelines for safe information technology usage, identity management, assessing content appropriateness, agreements, and terms of use for media and information sources.</p>
-                <p>Apply abstract concepts and problem-solving procedures in programming or real-life situations. Effectively gather data and generate alternatives for decision-making, while being aware of safe information technology usage—ensuring benefits for learning and avoiding harm to others. </p>
-                <p>
-                <p>
+                <p>This course empowers students to develop innovative applications that creatively integrate with other academic subjects, fostering interdisciplinary learning and problem-solving. Students will learn to collect, process, and evaluate data using various software and internet services, transforming raw information into meaningful presentations aligned with project objectives. Through hands-on projects, they will explore how technology intersects with fields like science, arts, and social studies, enhancing their ability to create purposeful digital solutions. </p>
+                <p>Additionally, the course emphasizes critical digital literacy, teaching students to assess the credibility of online information and analyze the societal impact of media and misinformation. Learners will also explore ethical technology use, including safe and responsible online behavior, adherence to computer laws, and fair use of copyrighted materials. By the end of the course, students will be equipped to navigate the digital world thoughtfully, applying technical skills with integrity and awareness of their societal responsibilities.</p>
+                <h2 class="indicator">Indicators</h2>
+            <ol>
+            <li>Design an algorithm that uses abstract concepts to solve a problem or describe a function encountered in real life.</li>
+            <li>Design and write simple programs to solve mathematical or scientific problems.</li>
+            <li>Collect primary data, process, evaluate, present data and information according to the objectives using various software or internet services.</li>
+            <li>Use information technology safely, use media and information sources according to the terms and conditions.</li>
+            </ol>
                 <h3>TOPICS</h3>
-                </p>
-                <ul>
-                    <li>Introduction to Computational Thinking & Algorithms</li>
-                    <li>Problem Decomposition & Pattern Recognition</li>
-                    <li>Algorithm Design & Step-by-Step Solutions</li>
-                    <li>Abstraction & Simplifying Problems</li>
-                    <li>Introduction to Programming (Block-Based)</li>
-                    <li>Algorithms in Daily Life</li>
-                    <li>Debugging & Improving Algorithms</li>
-                    <li>Hands-on Project (Part 1)</li>
-                    <li>Hands-on Project (Part 2)</li>
-                    <li>Presentation & Reflection</li>
-                </ul>
-                </p>
+                
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Unit</th>
+                            <th>Topic</th>
+                            <th>Content</th>    
+                            <th>Indicator</th>    
+                            <th>Resources</th>                    
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                   
+                    </tbody>
+                </table>
             </div>
 
-            <!-- <div class="tab-content" id="indicator2">
-            <h2>Indicator 2 Content</h2>
-            <p>This is where you would display the content for your second indicator.</p>
-            <p>Customize this section with your specific data and visualizations.</p>
-        </div> -->
-
             <!-- <div class="tab-content" id="indicator3">
-            <h2>Indicator 3 Content</h2>
-            <p>This is where you would display the content for your third indicator.</p>
-            <p>Add your relevant information and charts here.</p>
-        </div> -->
-
-            <!-- <div class="tab-content" id="indicator4">
-            <h2>Indicator 4 Content</h2>
-            <p>This is where you would display the content for your fourth indicator.</p>
-            <p>Include your data presentation elements in this section.</p>
-        </div> -->
+                <h2 class="indicator">Second Semester Content</h2>
+                <p>Second semester content will be displayed here.</p>
+            </div> -->
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                // Tab switching functionality
-                const tabs = document.querySelectorAll('.tab');
-                tabs.forEach(tab => {
-                    tab.addEventListener('click', () => {
-                        // Remove active class from all tabs and content
-                        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-                        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-
-                        // Add active class to clicked tab and corresponding content
-                        tab.classList.add('active');
-                        const tabId = tab.getAttribute('data-tab');
-                        document.getElementById(tabId).classList.add('active');
+       <script>
+        // Fetch the JSON data
+        fetch('json/m3-data.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('tableBody');
+                
+                data.tableData.forEach(item => {
+                    const row = document.createElement('tr');
+                    
+                    // Unit cell
+                    const unitCell = document.createElement('td');
+                    unitCell.textContent = item.unit;
+                    row.appendChild(unitCell);
+                    
+                    // Topic cell
+                    const topicCell = document.createElement('td');
+                    topicCell.textContent = item.topic;
+                    row.appendChild(topicCell);
+                    
+                    // Contents cell (handle multiple items)
+                    const contentsCell = document.createElement('td');
+                    item.contents.forEach(content => {
+                        const contentDiv = document.createElement('div');
+                        contentDiv.className = 'content-item';
+                        contentDiv.textContent = content;
+                        contentsCell.appendChild(contentDiv);
                     });
+                    row.appendChild(contentsCell);
+                    
+                    //indicator cell
+                    const indicatorCell = document.createElement('td');
+                    indicatorCell.textContent = item.indicator || 'Not specified';
+                    row.appendChild(indicatorCell);
+                    
+                    // Resources cell
+                    const linkCell = document.createElement('td');
+                    if (item.link) {
+                        const link = document.createElement('a');
+                        link.className = 'resource-link';
+                        link.href = item.link;
+                        link.textContent = 'View Resources';
+                        link.target = '_blank';  // Opens in new tab
+                        linkCell.appendChild(link);
+                    } else {
+                        linkCell.textContent = 'No link available';
+                    }
+                    row.appendChild(linkCell);
+                    
+                    tableBody.appendChild(row);
                 });
-
-                // Home button functionality
-                const homeBtn = document.querySelector('.home-btn');
-                homeBtn.addEventListener('click', () => {
-                    // Reset to first tab when home is clicked
-                    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-
-                    document.querySelector('.tab').classList.add('active');
-                    document.getElementById('indicator1').classList.add('active');
-                });
+            })
+            .catch(error => {
+                console.error('Error loading JSON:', error);
+                document.getElementById('tableBody').innerHTML = 
+                    '<tr><td colspan="3">Error loading data. Please check console.</td></tr>';
             });
-        </script>
+    </script>
     </body>
 
 </html>
