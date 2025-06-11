@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mathayom 3</title>
+    <title>Mathayom 4</title>
     <style>
         * {
             box-sizing: border-box;
@@ -153,38 +153,23 @@
 
 <body>
     <div class="header">
-        <h1>Grade 9 Lesson Topic</h1>
+        <h1>Grade 10 Lesson Topic</h1>
         <a href="index.html"><button class="home-btn">Home</button></a>
     </div>
+
+    <!-- <div class="tab-container">
+            <div class="tab active" data-tab="indicator1">First Semester</div>            
+            <div class="tab" data-tab="indicator3">Second Semester</div>            
+        </div> -->
 
     <div class="content">
         <h1 class="indicator">COURSE DESCRIPTION</h1>
         <div class="tab-content active" id="indicator1">
-            <p>This course empowers students to develop innovative applications that creatively integrate with other
-                academic subjects, fostering interdisciplinary learning and problem-solving. Students will learn to
-                collect, process, and evaluate data using various software and internet services, transforming raw
-                information into meaningful presentations aligned with project objectives. Through hands-on projects,
-                they will explore how technology intersects with fields like science, arts, and social studies,
-                enhancing their ability to create purposeful digital solutions. </p>
-            <p>Additionally, the course emphasizes critical digital literacy, teaching students to assess the
-                credibility of online information and analyze the societal impact of media and misinformation. Learners
-                will also explore ethical technology use, including safe and responsible online behavior, adherence to
-                computer laws, and fair use of copyrighted materials. By the end of the course, students will be
-                equipped to navigate the digital world thoughtfully, applying technical skills with integrity and
-                awareness of their societal responsibilities.</p>
+            <p>This course empowers students to apply computational thinking across various disciplines, integrating technology with subjects such as science, art, mathematics, and social studies. Students will design and develop creative projects that solve real-world problems, emphasizing logical reasoning, algorithmic design, and digital innovation. By connecting computing concepts with other fields, students will enhance their problem-solving skills while exploring the impact of technology in everyday life.</p>
             <h2 class="indicator">Indicators</h2>
             <p>Indicators: Sci 4.2 Technology (Computational Science)</p>
             <ol>
-                <li>Develop applications that are creatively integrated with other subjects.
-                </li>
-                <li>Collect, process, evaluate, present data and information according to the objectives using various
-                    software or Internet services.
-                </li>
-                <li>Evaluate the credibility of information, analyze media and the impact of misinformation for informed
-                    use.
-                </li>
-                <li>Use information technology safely and responsibly towards society, comply with computer laws, and
-                    use others' copyrights fairly.
+                <li>Apply computational thinking to develop projects that are integrated with other subjects creatively and are connected to real life.
                 </li>
             </ol>
             <h3>TOPICS</h3>
@@ -194,7 +179,7 @@
                     <tr>
                         <th>Unit</th>
                         <th>Topic</th>
-                        <th>Content</th>
+                        <th>Activity</th>
                         <th>Indicator</th>
                         <th>Resources</th>
                     </tr>
@@ -204,16 +189,11 @@
                 </tbody>
             </table>
         </div>
-
-        <!-- <div class="tab-content" id="indicator3">
-                <h2 class="indicator">Second Semester Content</h2>
-                <p>Second semester content will be displayed here.</p>
-            </div> -->
     </div>
 
     <script>
         // Fetch the JSON data
-        fetch('json/m3-data.json')
+        fetch('json/m4-data.json')
             .then(response => response.json())
             .then(data => {
                 const tableBody = document.getElementById('tableBody');
