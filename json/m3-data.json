@@ -10,8 +10,11 @@
         "Computer Law",
         "Fair Use of Copyright"
       ],
-      "indicator": [3, 4],
-      "link":"https://drive.google.com/drive/folders/1zs78kZ41UD5hHgdXFe3ELVgrV7KhDWl3?usp=sharing"
+      "indicator": [
+        3,
+        4
+      ],
+      "link": "https://drive.google.com/drive/folders/1zs78kZ41UD5hHgdXFe3ELVgrV7KhDWl3?usp=sharing"
     },
     {
       "unit": 1,
@@ -21,7 +24,9 @@
         "Development planning",
         "Planning and progress tracking tools"
       ],
-      "indicator": [1]
+      "indicator": [
+        1
+      ]
     },
     {
       "unit": 2,
@@ -30,7 +35,9 @@
         "Information processing",
         "Creating a graphical user interface"
       ],
-      "indicator": [1]
+      "indicator": [
+        1
+      ]
     },
     {
       "unit": 3,
@@ -41,7 +48,9 @@
         "Programming with vuniteo",
         "Creating an application with Scratch"
       ],
-      "indicator": [1]
+      "indicator": [
+        1
+      ]
     },
     {
       "unit": 4,
@@ -50,7 +59,9 @@
         "Good information is half the battle.",
         "Using data to solve problems"
       ],
-      "indicator": [2]
+      "indicator": [
+        2
+      ]
     },
     {
       "unit": 5,
@@ -59,7 +70,9 @@
         "IoT components",
         "Case study of IoT application development: \"Automatic plant watering system\""
       ],
-      "indicator": [1]
+      "indicator": [
+        1
+      ]
     }
   ]
 }
